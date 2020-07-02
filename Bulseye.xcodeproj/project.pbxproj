@@ -13,6 +13,7 @@
 		E793CDD224AC800600F59FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E793CDD124AC800600F59FA1 /* Assets.xcassets */; };
 		E793CDD524AC800600F59FA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E793CDD424AC800600F59FA1 /* Preview Assets.xcassets */; };
 		E793CDD824AC800600F59FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E793CDD624AC800600F59FA1 /* LaunchScreen.storyboard */; };
+		E793CDE024ACE71300F59FA1 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793CDDF24ACE71300F59FA1 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E793CDD424AC800600F59FA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E793CDD724AC800600F59FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E793CDD924AC800600F59FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E793CDDF24ACE71300F59FA1 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E793CDCA24AC800400F59FA1 /* Bulseye */ = {
 			isa = PBXGroup;
 			children = (
+				E793CDDF24ACE71300F59FA1 /* AboutView.swift */,
 				E793CDCB24AC800400F59FA1 /* AppDelegate.swift */,
 				E793CDCD24AC800400F59FA1 /* SceneDelegate.swift */,
 				E793CDCF24AC800400F59FA1 /* ContentView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E793CDE024ACE71300F59FA1 /* AboutView.swift in Sources */,
 				E793CDCC24AC800400F59FA1 /* AppDelegate.swift in Sources */,
 				E793CDCE24AC800400F59FA1 /* SceneDelegate.swift in Sources */,
 				E793CDD024AC800400F59FA1 /* ContentView.swift in Sources */,

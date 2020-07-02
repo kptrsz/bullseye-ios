@@ -24,7 +24,8 @@ struct ContentView: View {
         func body(content: Content) -> some View {
             content
                 .foregroundColor(Color.white)
-                .modifier(ShadowStyle())                .font(Font.custom("Arial Rounded MT Bold", size: 18))
+                .modifier(ShadowStyle())
+                .font(Font.custom("Arial Rounded MT Bold", size: 18))
         }
     }
     
@@ -123,7 +124,7 @@ struct ContentView: View {
                 Text("Round").modifier(LabelStyle())
                 Text("\(roundCount)").modifier(ValueStyle())
                 Spacer()
-                Button(action: {}){
+                NavigationLink(destination: AboutView()){
                     HStack{
                         Image("InfoIcon")
                         Text("Info").modifier(ButtonSmallTextStyle())}
@@ -133,6 +134,7 @@ struct ContentView: View {
         }
         .background(Image("Background"), alignment: .center)
         .accentColor(midnightBlue)
+    .navigationBarTitle("Bullseye")
     }
     
     func resetGame(){
